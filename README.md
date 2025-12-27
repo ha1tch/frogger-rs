@@ -92,6 +92,5 @@ ha1tch
 
 h@ual.fi
 
-https://oldbytes.space/user/@haitchfive
-
+https://oldbytes.space/@haitchfive
 
