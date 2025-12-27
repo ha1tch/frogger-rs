@@ -588,7 +588,7 @@ fn draw_game_over(d: &mut RaylibDrawHandle, won: bool) {
     d.draw_rectangle(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT, overlay);
 
     let message = if won { "YOU WIN!" } else { "GAME OVER" };
-    let text_width = measure_text(message, 40);
+    let text_width = d.measure_text(message, 40);
     d.draw_text(
         message,
         SCREEN_WIDTH / 2 - text_width / 2,
@@ -598,7 +598,7 @@ fn draw_game_over(d: &mut RaylibDrawHandle, won: bool) {
     );
 
     let restart = "Press SPACE to restart";
-    let restart_width = measure_text(restart, 20);
+    let restart_width = d.measure_text(restart, 20);
     d.draw_text(
         restart,
         SCREEN_WIDTH / 2 - restart_width / 2,

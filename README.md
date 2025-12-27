@@ -82,8 +82,16 @@ frogger-rs/
 
 ## License
 
-MIT
+Copyright (C) 2025 ha1tch
+
+Apache 2.0
 
 ## Author
 
 ha1tch
+
+h@ual.fi
+
+https://oldbytes.space/user/@haitchfive
+
+
