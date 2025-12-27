@@ -10,3 +10,11 @@ repository = "https://github.com/ha1tch/frogger-rs"
 [dependencies]
 raylib = "5.0"
 rand = "0.8"
+
+[profile.small]
+inherits = "release"
+opt-level = "z"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
