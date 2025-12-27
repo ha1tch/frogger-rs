@@ -1,7 +1,7 @@
 [package]
 name = "frogger"
 version = "0.1.0"
-edition = "2025"
+edition = "2021"
 description = "A Frogger clone in Rust using raylib"
 license = "Apache-2.0"
 authors = ["ha1tch <h@ual.fi>"]
